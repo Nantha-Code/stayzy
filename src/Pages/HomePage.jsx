@@ -3,10 +3,11 @@ import SearchBar from './SearchBar';
 
 function HomePage() {
   return (
-    <div>HomePage
-
+    <>
+    
     <SearchBar/>
-    </div>
+    
+    </>
   )
 }
 
