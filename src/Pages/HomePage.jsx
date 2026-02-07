@@ -1,11 +1,11 @@
 import React from 'react'
-// import SearchBar from './SearchBar';
+import SearchBar from './SearchBar';
 
 function HomePage() {
   return (
     <div>HomePage
 
-    {/* <SearchBar/> */}
+    <SearchBar/>
     </div>
   )
 }
