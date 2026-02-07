@@ -1,5 +1,5 @@
-
-import HomePage from './components/HomePage'
+import React from 'react';
+import HomePage from './Pages/HomePage';
 
 function App() {
 
@@ -10,4 +10,4 @@ function App() {
   )
 }
 
-export default App
+export default App;
