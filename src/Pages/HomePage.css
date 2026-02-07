@@ -1,0 +1,15 @@
+.nav{
+    background: #fff;
+    /* width: 100%; */
+    ul{
+        display: flex;
+        gap: 4rem;
+        list-style: none;
+    }
+}
+
+.logo{
+    /* display: flex; */
+    height: 150px;
+
+}
