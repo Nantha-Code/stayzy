@@ -12,4 +12,45 @@
     /* display: flex; */
     height: 150px;
 
+} 
+.slider-container {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  margin: 40px auto;
+}
+
+.slider {
+  overflow: hidden;
+  width: 80%;
+}
+
+.track {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+}
+
+.box {
+  min-width: 200px;
+  height: 120px;
+  margin-right: 16px;
+  background: #3b82f6;
+  color: white;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+}
+
+.arrow {
+  background: none;
+  border: none;
+  font-size: 28px;
+  cursor: pointer;
+  padding: 10px;
+}
+
+.arrow:hover {
+  transform: scale(1.2);
 }
